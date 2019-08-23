@@ -50,4 +50,6 @@ React와 Redux는 필수적으로 사용하셔야 합니다. 그 외에는 기�
     - 사용자가 즐겨찾기에 추가한 이벤트들을 명확하게 확인할 수 있어야 합니다.
     - 사용자는 즐겨찾기에서 이벤트를 제거할 수 있어야 합니다.
     - 즐겨찾기는 관련 API가 없기 때문에, [LocalStorage](https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage)를 이용하여 관리해주시기 바랍니다.
-4. 요구 사항 외에 API를 이용하여 자유롭게 기능을 추가해주셔도 좋습니다.
+4. Test Code 작성하기
+    - 최소한의 Unit Test (util functions, component, reducer, etc)를 작성해주세요.
+5. 요구 사항 외에 API를 이용하여 자유롭게 기능을 추가해주셔도 좋습니다.
