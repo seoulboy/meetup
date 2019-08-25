@@ -12,6 +12,20 @@
 
 본인만의 브랜치를 만들어 작업한 후, master 브랜치에 Merge Request를 만들어주세요. GIF 파일도 함께 추가해주세요.
 
+### Grades
+
+30점 이상 Pass입니다.
+
+- (10) Feature Requirements
+- (10) Consistent Code Style
+- (10) Code Readability
+- (10) Personal Improvements
+- (10) Git Usage
+
+### Test Result
+
+코드 리뷰에 대한 내용은 제공해드리지 않으며, 테스트에 대한 결과는 목요일 저녁 7시까지 Slack DM으로 알려드립니다.
+
 ### Rules
 
 - 바닐라코딩 멘토 혹은 수료생들에게는 질문을 할 수 없습니다.
@@ -24,16 +38,6 @@
 프로젝트 Boilerplate는 [Create React App](https://create-react-app.dev)을 사용하시기를 추천드립니다.
 
 React와 Redux는 필수적으로 사용하셔야 합니다. 그 외에는 기술적 제약이 없습니다.
-
-### Grades
-
-30점 이상 Pass입니다.
-
-- (10) Feature Requirements
-- (10) Consistent Code Style
-- (10) Code Readability
-- (10) Personal Improvements
-- (10) Git Commit History
 
 ### Meetup API Key
 
