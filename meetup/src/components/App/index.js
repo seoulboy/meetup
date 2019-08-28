@@ -17,7 +17,7 @@ const App = ({
       localStorage.getItem('favoriteMeetups')
     );
 
-    if (localStorageFavorites !== undefined) {
+    if (localStorageFavorites !== null) {
       addToFavorite(localStorageFavorites);
     }
   }, []);

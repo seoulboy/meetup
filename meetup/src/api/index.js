@@ -19,7 +19,7 @@ export const fetchUpComingMeetUpData = (
     }&lat=${center.lat}&radius=1`,
     {
       headers: {
-        Authorization: 'Bearer 298a0543a595bb80e462d876863d507c',
+        Authorization: 'Bearer 3538f2e1276054c8d0873ebcfc20e92e',
       },
     }
   );
@@ -30,7 +30,7 @@ export const fetchEventHostData = (urlName, eventId) => {
   const baseUrl = 'https://api.meetup.com/';
   return axios.get(`${proxyUrl + baseUrl}/${urlName}/events/${eventId}/hosts`, {
     headers: {
-      Authorization: 'Bearer 298a0543a595bb80e462d876863d507c',
+      Authorization: 'Bearer 3538f2e1276054c8d0873ebcfc20e92e',
     },
   });
 };
