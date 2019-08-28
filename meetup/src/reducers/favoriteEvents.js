@@ -1,8 +1,8 @@
-import { removeByKey } from '../utils'
+import { removeByKey } from '../utils';
 
 const initialState = {
   favoriteEventsList: {},
-}
+};
 
 const favoriteEventsReducer = (
   state = initialState.favoriteEventsList,

@@ -1,7 +1,7 @@
 const initialState = {
   upcomingEventsData: {
     data: { events: [{ local_date: '', local_time: '' }] },
-  }
+  },
 };
 
 const upcomingEventsReducer = (
