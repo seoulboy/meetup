@@ -11,6 +11,8 @@ const App = ({
   deleteFavorite,
   FavoriteEvents,
 }) => {
+
+  
   useEffect(() => {
     onLoad();
     let localStorageFavorites = JSON.parse(
@@ -20,7 +22,7 @@ const App = ({
     if (localStorageFavorites !== null) {
       addToFavorite(localStorageFavorites);
     }
-  }, []);
+  },[addToFavorite, onLoad]);
 
   useEffect(() => {
     if (JSON.parse(

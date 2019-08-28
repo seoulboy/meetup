@@ -23,6 +23,7 @@ const EventListing = ({
         </li>
       );
     }
+    return ''
   });
 
   const renderedFavoriteList = Object.values(FavoriteEvents).map(
