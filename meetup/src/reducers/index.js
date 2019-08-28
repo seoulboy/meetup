@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+import { removeByKey } from '../utils';
 
 const initialState = {
   upcomingEventsData: {
@@ -37,15 +38,6 @@ export const favoriteEventsReducer = (
     default:
       return state;
   }
-};
-
-const removeByKey = (myObj, deleteKey) => {
-  return Object.keys(myObj)
-    .filter(key => key !== deleteKey)
-    .reduce((result, current) => {
-      result[current] = myObj[current];
-      return result;
-    }, {});
 };
 
 export default combineReducers({
