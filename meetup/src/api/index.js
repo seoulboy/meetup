@@ -34,17 +34,3 @@ export const fetchEventHostData = (urlName, eventId) => {
     },
   });
 };
-
-// export const refreshToken = () => {
-//   const proxyurl = 'https://cors-anywhere.herokuapp.com/';
-//   const API_KEY = '60sv8vovkslbbbiv6fst4c9171';
-//   const baseUrl = 'https://secure.meetup.com/oauth2/access';
-//   const CLIENT_SECRET = 'kcf6ccii75quroa1utm3qkfb3d';
-//   const refreshTokenFromAccess = '0ebfe6bd59c1d61407abbaf2810cbfc0';
-
-//   return axios(
-//     `${proxyurl +
-//       baseUrl}?client_id=${API_KEY}&client_secret=${CLIENT_SECRET}&grant_type=refresh_token&refresh_token=${refreshTokenFromAccess}`,
-//     { method: 'POST' }
-//   );
-// };
