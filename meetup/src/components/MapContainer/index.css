@@ -1,0 +1,47 @@
+.map-elem {
+  display: inline-block !important;
+  width: 100% !important;
+  height: 800px !important;
+  position: relative !important;
+  border-radius: 12px;
+  border: #ed1c40 solid 20px;
+}
+
+.favorite-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.google_map_infoWindow {
+  background: #ed1c40;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-size: 0.9rem;
+  width: 300px;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 5px;
+}
+
+h4 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-top: 21.5px;
+}
+
+img {
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.infoWindow-content {
+  display: inline-block;
+}
+
+.star-icon {
+  margin-bottom: 10px;
+}
