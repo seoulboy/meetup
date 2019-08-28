@@ -7,7 +7,7 @@ const initialState = {
   favoriteEventsList: {},
 };
 
-const upcomingEventsReducer = (
+export const upcomingEventsReducer = (
   state = initialState.upcomingEventsData,
   action
 ) => {
@@ -21,7 +21,7 @@ const upcomingEventsReducer = (
   }
 };
 
-const favoriteEventsReducer = (
+export const favoriteEventsReducer = (
   state = initialState.favoriteEventsList,
   action
 ) => {
