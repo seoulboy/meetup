@@ -33,6 +33,9 @@ export const MapContainer = ({
       }
       setActiveMarker(marker);
       setShowingInfoWindow(true);
+    }).catch(error => {
+      console.error(error);
+      alert('Failed to fetch host data on marker click!');
     });
   };
 
@@ -93,7 +96,7 @@ export const MapContainer = ({
     );
     ReactDOM.render(
       React.Children.only(button),
-      document.getElementById('iwc')
+      document.getElementById('icon-div')
     );
   };
 
@@ -116,7 +119,7 @@ export const MapContainer = ({
         }}
       >
         <div className='google_map_infoWindow'>
-          <div id='iwc' className='star-icon' />
+          <div id='icon-div' className='star-icon' />
           <div className='infoWindow-content'>
             <h3>
               <a
